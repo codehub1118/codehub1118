@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Jersey+25&display=swap" rel="stylesheet">
+    <title>ලුණු පොල්කටු</title>
+    <style>
+      html{
+        scrollbar-width: normal;
+        scrollbar-color: #0fe #555;
+      }
+    body{
+      background-color: #222;
+    }
+    #home{
+      margin-top: 100px;
+    }
+    iframe{
+      border-radius: 10px;
+    }
+      #container{
+        background-color: #555;
+        margin: 20px 100px 0px 100px;
+        border-radius: 20px;
+        height: 652vh;
+      }
+      img{
+        width: 100px;
+        height: auto;
+        margin-left: 50px;
+      }
+      .logo{
+        font-size: 40px;
+        color: #0fe;
+        margin-left: 20px;
+        margin-top: 5px;
+        border: 5px solid #000000a3;
+        border-radius: 50%;
+        width: 55px;
+        height: 55px;
+      }
+      .name{
+        font-family: "Amiri Quran", serif;
+        font-size: xx-large;
+        margin-top: -5px;
+        margin-left: 405px;
+        color: #0fe;
+      }
+      .mylogo{
+        background-color: #999;
+        height: 120px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .logo1{
+        margin-left: 550px;
+        margin-top: 5px;
+        border: 5px solid #000000a3;
+        border-radius: 50%;
+      }
+    </style>
+    <!-- coconut card style-->
+    <style>
+      .card1{
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+        border-radius: 10px;
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+      }
+      .image1{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut1{
+        border-radius: 20px;
+      }
+
+      .card2{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        position: absolute;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image2{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut2{
+        border-radius: 20px;
+      }
+
+      .card3{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-top: 50vh;
+        margin-left: 500px;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image3{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut3{
+        border-radius: 20px;
+      }
+
+      /* 456 */
+      .card4{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image4{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut4{
+        border-radius: 20px;
+      }
+
+      .card5{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        /* position: absolute; */
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image5{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut5{
+        border-radius: 20px;
+      }
+
+      .card6{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 500px;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image6{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut6{
+        border-radius: 20px;
+      }
+
+      /* 78 */
+
+      .card7{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image7{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut7{
+        border-radius: 20px;
+      }
+
+      .card8{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        position: absolute;
+        background-color: #fff;
+        width: 200px;
+        height: 240px;
+      }
+      .image8{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .coconut8{
+        border-radius: 20px;
+      }
+
+      .header{
+        text-align: center;
+      }
+      .title{
+        text-align: center;
+      }
+      .row2{
+        margin-top: 100px;
+      }
+      .row3{
+        margin-top: 100px;
+      }
+    </style>
+
+    <!-- pricing card styles -->
+    <style>
+      .pcard1{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage1{
+        border-radius: 10px;
+        width: 250px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pcard2{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        position: absolute;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage2{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut2{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pcard3{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-top: 90vh;
+        margin-left: 500px;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage3{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut3{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      /* 456 */
+      .pcard4{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage4{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut4{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pcard5{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        /* position: absolute; */
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage5{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut5{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pcard6{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 500px;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage6{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut6{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      /* 78 */
+
+      .pcard7{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-right: 50px;
+        margin-top: 0vh;
+        float: right;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage7{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut7{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pcard8{
+        filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66));
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-top: 0vh;
+        position: absolute;
+        background-color: #fff;
+        width: 250px;
+        height: 240px;
+      }
+      .pimage8{
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.20);
+      }
+      .pcoconut8{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .pheader{
+        text-align: center;
+      }
+      .ptitle{
+        text-align: center;
+      }
+      .prow2{
+        margin-top: 100px;
+      }
+      .prow3{
+        margin-top: 100px;
+      }
+    </style>
+
+     <!-- navbar styles -->
+    <style>
+ul.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 5px;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  height: 80px;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  color: #0fe;
+  background-color: #111;
+  border-radius: 10px;
+  height: 100px;
+}
+
+/* ul.topnav li a.active {
+  background-color: #04aa6d43;
+} */
+
+/* ul.topnav li.right {
+  float: right;
+} */
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {
+    float: none;
+  }
+}
+    </style>
+
+    <!-- contact form styles -->
+    <style>
+    .container{
+      /* filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.66)); */
+      box-shadow: 2px 4px 6px rgba(255, 255, 255, 0.66);
+      background-color: #ffffff;
+      color: #000000;
+      margin-left: 350px;
+      margin-top: 80vh;
+    	border-radius: 5px;
+    	padding: 30px;
+    	width: 450px;
+    }
+    .container p{
+    	margin: 20px 0;
+    }
+    form div{
+    	display: flex;
+    	justify-content: space-between;
+    	gap: 5px;
+    }
+    span input{
+    	width: 100%;
+    	padding: 10px;
+    	margin: 5px 0 20px 0;
+    	background-color: #eee;
+    	border: none;
+    	outline: none;
+    }
+    textarea{
+    	width: 100%;
+    	padding: 10px;
+    	margin-top: 5px;
+    	background-color: #eee;
+    	border: none;
+    	outline: none;
+    }
+    button{
+    	background-color: #00ff0d;
+    	padding: 10px 30px;
+    	border-radius: 5px;
+    	color: rgb(0, 0, 0);
+    	border: none;
+    	margin-top: 20px;
+    }
+    button:hover{
+    	background-color: #00ff0f;
+    	cursor: pointer;
+    }
+    .header{
+      color: #000000;
+    }
+    </style>
+
+    <!-- footer styles -->
+    <style>
+      footer{
+        margin-top:8vh;
+        background-color: rgba(0, 255, 0, 0.115);
+        border-radius: 20px;
+      }
+      footer h1{
+        color: #04ff00;
+        text-align: center;
+        font-family: "Amiri Quran", serif;
+      }
+      footer img{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border: 5px double #000;
+        margin-left: 600px;
+      }
+      footer .p1{
+        color:#ffffff;
+        font-size: large;
+        text-align: center;
+      }
+      footer .p2{
+        color: #ffffff;
+        font-size:large;
+        text-align: center;
+      }
+      footer .p2 a{
+        text-decoration: none;
+        color:#000000;
+        font-size: large;
+        text-decoration: underline;
+      }
+      footer .p2 a:hover{
+        text-decoration: none;
+        color:#00234b;
+        font-size: large;
+        text-decoration: underline;
+      }
+      footer .p3{
+        font-weight: bolder;
+        color:#ffffff;
+        font-size: large;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div id="container">
+      <div id="nav">
+        <div class="mylogo">
+          <img class="logo1" src="my img/logo.png" alt="">
+        </div>
+        <ul class="topnav">
+          <li><img class="logo" src="my img/logo.png" alt="D.P.T"></li>
+          <li class="name">D.P.T Productions</li>
+          <li style="float: right; margin-top: 15px; border-radius: 10px; font-size: 17px; margin-right: 10px;"><a href="#contact">Contact</a></li>
+          <li style="float: right; margin-top: 15px; border-radius: 10px; font-size: 18px; margin-right: 10px;" ><a href="#pricing">Pricing</a></li>
+          <li style="float: right; margin-top: 15px; border-radius: 10px; font-size: 18px; margin-right: 10px;" ><a href="#productions">Productions</a></li>
+          <li style="float: right; margin-top: 15px; border-radius: 10px; font-size: 18px; margin-right: 10px;" ><a class="active" href="#home">Home</a></li>
+        </ul>
+
+        <!--home-->
+        <div id="home">
+              <!--location-->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2slk!4v1714305115186!5m2!1sen!2slk!6m8!1m7!1sRijftT0kkMDgjDNfE789ng!2m2!1d8.01959393049392!2d80.93818316305142!3f258.41828226204467!4f6.03354739701669!5f0.4996253646561702" width="645" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <iframe style="float: right;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.1347235191901!2d80.93761856389881!3d8.01960715011682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afb5d006eda5c13%3A0xaebeadc16cb45261!2sAsiri%20House!5e1!3m2!1sen!2slk!4v1714305198428!5m2!1sen!2slk" width="645" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+        <div id="productions">
+          <div class="row1">
+        <div class="card1">
+          <div class="image1">
+          <img class="coconut1" src="my img/1.jpg">
+          </div>
+          <h2 class="header">header1</h2>
+          <p class="title">title1</p>
+        </div>
+
+        <div class="card2">
+          <div class="image2">
+            <img class="coconut2" src="my img/2.jpg">
+          </div>
+          <h2 class="header">header2</h2>
+          <p class="title">title2</p>
+        </div>
+
+        <div class="card3">
+          <div class="image3">
+            <img class="coconut3" src="my img/3.jpg">
+          </div>
+          <h2 class="header">header3</h2>
+          <p class="title">title3</p>
+        </div>
+      </div>
+
+        <div class="row2">
+        <div class="card4">
+          <div class="image4">
+          <img class="coconut4" src="my img/4.jpg">
+          </div>
+          <h2 class="header">header4</h2>
+          <p class="title">title4</p>
+        </div>
+
+        <div class="card5">
+          <div class="image5">
+            <img class="coconut5" src="my img/5.jpg">
+          </div>
+          <h2 class="header">header5</h2>
+          <p class="title">title5</p>
+        </div>
+
+        <div class="card6">
+          <div class="image6">
+            <img class="coconut6" src="my img/6.jpg">
+          </div>
+          <h2 class="header">header6</h2>
+          <p class="title">title6</p>
+        </div>
+      </div>
+
+      <div class="row3">
+        <div class="card7">
+          <div class="image7">
+          <img class="coconut7" src="my img/7.jpg">
+          </div>
+          <h2 class="header">header7</h2>
+          <p class="title">title7</p>
+        </div>
+
+        <div class="card8">
+          <div class="image8">
+            <img class="coconut8" src="my img/8.jpg">
+          </div>
+          <h2 class="header">header8</h2>
+          <p class="title">title8</p>
+        </div>
+      </div>
+      </div>
+
+      <!--pricing-->
+
+      <div id="pricing">
+        <div class="prow1">
+      <div class="pcard1">
+        <div class="pimage1">
+        <img class="pcoconut1" src="pricing/1.jpg">
+        </div>
+        <h2 class="pheader">header1</h2>
+        <p class="ptitle">title1</p>
+      </div>
+
+      <div class="pcard2">
+        <div class="pimage2">
+        <img class="pcoconut2" src="pricing/2.jpg">
+        </div>
+        <h2 class="pheader">header2</h2>
+        <p class="ptitle">title2</p>
+      </div>
+
+      <div class="pcard3">
+        <div class="pimage3">
+        <img class="pcoconut3" src="pricing/3.jpg">
+        </div>
+        <h2 class="pheader">header3</h2>
+        <p class="ptitle">title3</p>
+      </div>
+    </div>
+
+    <div class="prow2">
+
+      <div class="pcard4">
+        <div class="pimage4">
+        <img class="pcoconut4" src="pricing/4.jpg">
+        </div>
+        <h2 class="pheader">header4</h2>
+        <p class="ptitle">title4</p>
+      </div>
+
+      <div class="pcard5">
+        <div class="pimage5">
+        <img class="pcoconut5" src="pricing/5.jpg">
+        </div>
+        <h2 class="pheader">header5</h2>
+        <p class="ptitle">title5</p>
+      </div>
+
+      <div class="pcard6">
+        <div class="pimage6">
+        <img class="pcoconut6" src="pricing/6.jpg">
+        </div>
+        <h2 class="pheader">header6</h2>
+        <p class="ptitle">title6</p>
+      </div>
+    </div>
+
+    <div class="prow3">
+
+      <div class="pcard7">
+        <div class="pimage7">
+        <img class="pcoconut7" src="pricing/7.jpg">
+        </div>
+        <h2 class="pheader">header7</h2>
+        <p class="ptitle">title7</p>
+      </div>
+      <div class="pcard8">
+        <div class="pimage8">
+        <img class="pcoconut8" src="pricing/8.jpg">
+        </div>
+        <h2 class="pheader">header8</h2>
+        <p class="ptitle">title8</p>
+      </div>
+    </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact" class="container">
+      <h2 class="header">අප හා සම්බන්ධ වන්න.</h2>
+      <p class="header">ඔබට අප හා සම්බන්ධ වී ලුණු පොල්කටු මිලදී ගත හැක</p>
+      <form action="">
+        <div>
+          <span>
+            <label for="name">Name</label><br/>
+            <input id="name" type="text" placeholder="Full Name">
+          </span>
+          <span>
+            <label for="email">Phone Number</label></br>
+            <input id="phone" type="phone" placeholder="Phone Number">
+          </span>
+        </div>
+        <label for="message">Your Message</label><br/>
+        <textarea name="" id="message" rows="10" placeholder="Your Message"></textarea>
+        <button onclick="sendToWhatsapp()">Submit</button>
+      </form>
+    </div>
+
+    <!--footer-->
+
+    <footer>
+      <h1>D.P.T Productions</h1>
+      <img src="my img/logo.png" alt="">
+      <p class="p1">Developed by <b>Chanuga Nimsira</b></p>
+      <p class="p2">Developer channel <b><a href="https://www.youtube.com/@codehub1118">Code Hub</a></b></p>
+      <p class="p3">&copy; Code Hub</p>
+
+    </footer>
+
+    <script>
+    function sendToWhatsapp(){
+	    let number = "+94addnumber";
+    
+	    let name = document.getElementById('name').value;
+	    let email = document.getElementById('phone').value;
+	    let message = document.getElementById('message').value;
+    
+	    var url = "https://wa.me/" + number + "?text="
+	    + "Name : " +name+ "%0a"
+	    + "Phone : " +phone+ "%0a"
+	    + "Message : " +message+ "%0a%0a";
+    
+	    window.open(url, '_blank').focus();
+    }
+    </script>
+  </body>
+
+</html>
+
